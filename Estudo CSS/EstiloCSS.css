@@ -1,0 +1,217 @@
+            p{
+                color: black;
+            }
+
+            h1{
+                color: red;
+            }
+
+            #testediv{
+                background: gray;
+            }
+            #testeconteudo{
+                background: thistle;
+
+            }
+
+            #testebordas{
+               /* border: 5px solid green; */
+
+               border-color: red green yellow blue;
+               border-width: 15px 10px 8px 3px;
+               border-style: solid;
+
+               /* da maneira acida tem um controle melhor das propriedades */
+            }
+            #testecores{
+                color: yellow;
+                font-size: 30px;
+                background: red;
+                font-family: 'Georgia', Times, serif ;
+            }
+
+            #testefontes{
+                font-size: 30px;
+                font-family: 'Georgia', Times, serif ;
+            }
+
+            .testefontes{
+                font-size: 1em;
+                font-family: 'Georgia', Times, serif ;
+
+            }
+
+            #testefontes2{
+                font-size: 2em;
+                font-family: 'Georgia', Times, serif ;
+            }
+            #testeestilos{
+
+                font-size: 30px;
+                font-family: 'Georgia', Times, serif ;
+
+            }
+            .testeestilos1{
+                font-weight: bold;
+            }
+            .testeestilos2{
+                font-style: italic;
+            }
+            .testeestilos3{
+                text-decoration: overline;
+            }
+
+            #testeeleflut{
+                width: 920px;
+                border: 1px solid red;
+
+            }
+            .paragrafoelementosflutuantes{
+                background: #e5e5e5 ;
+                padding: 5px;
+                width: 280px;
+                margin: 8px;
+                float: left;
+
+            }
+
+            .imagenselementosflutuantes{
+                background: white;
+                width: 265px;
+                padding: 15px;
+                float: left;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+            .containerposicionamento{
+                background: aquamarine;
+                width: 800px;
+                border: 1px solid red;
+                margin: 10px auto;
+            }
+
+            .posicao-h1-container{
+                position: static;
+            }
+
+            .posicao-p1-container{
+                width: 240px ;
+                position: static;
+            }
+
+            .posicao-p2-container{
+                width: 240px ;
+                position: static;
+                border: 1px solid red;
+                position: relative;
+                top: 5px;
+                left: 100px;
+            }
+
+            .posicao-p3-container{
+                width: 240px ;
+                position: static;
+            }
+
+            .classeSobrepromdo{
+                position: relative;
+            }
+
+            .conteudo1sobrepondo{
+
+                border: 1px solid red;
+                background: orange;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                z-index: 1;
+
+
+            }
+
+            .conteudo2sobrepondo{
+                border: 1px solid red;
+                background: green;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 80px;
+                left: 80px;
+                z-index: 2;
+
+            }
+
+            .conteudo3sobrepondo{
+                border: 1px solid red;
+                background: yellow;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 160px;
+                left: 160px;
+                z-index: 3;
+
+            }
+
+            .formatLinks{
+
+            }
+
+            /* Não visitados */
+
+            a:link {
+
+                color: blue;
+
+            }
+
+            /* Visitados */
+
+            a:visited{
+
+                color: green;
+
+            }
+
+            /* Hover */
+
+            a:hover{
+
+                color: red;
+
+            }
+
+            /* Ativo */
+
+            a:active{
+
+                color: purple;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

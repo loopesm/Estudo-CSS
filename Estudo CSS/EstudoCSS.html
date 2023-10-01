@@ -1,0 +1,346 @@
+ <!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> Estilos CSS </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="EstiloCSS.css" />
+
+    </head>
+
+    <body>
+
+        <h1>TRABALHANDO COM CSS</h1>
+        <hr>
+
+        <p> Comentarios em CSS são atribuidos entre = /* comentario */</p>
+
+        <p> Podemos trabalhar de 3 Formas com CSS que será mostrado abaixo</p>
+        <hr>
+
+        <p><strong>INLINE</strong> - Podemos aplicar os códigos CSS dentro da própria TAG </p>
+
+        <p> Para isso, usamos o stributo "style" dentro da TAG </p>
+        <hr>
+
+        <p><strong>INTERNAL STYLE SHEET</strong> -  </p>
+
+        <p> Para usar a folha de estilo interna do código HTML, temos que colocar a TAG dentro do HEAD</p>
+
+        <p> Com a TAG "style" e atributo "type" com valor "=text/css" </p>
+
+        <p> Para atribuirmos valor CSS para algo precisamos usar "seletores" que se tratam dos nomes das TAGs que são usadas normalmente </p>
+
+        <p> A propriedades serão colocadas dentro de "chaves"</p>
+
+        <p> Colocamos então a propriedade "color:" e o valor "red;" com ponto e vírgula para definir que eu terminei a execução"</p>
+        <hr>
+
+        <p><strong>EXTERNAL STYLE SHEET</strong></p>
+
+        <p> Precisamos utilizar um novo arquivo para usar a folha de estialo externa </p>
+
+        <p> extenção do arquivo em ".css" </p>
+
+        <p> Dentro da TAG "head" devemos usar a TAG "link" conforme abaixo:</p>
+
+        <p> < link rel="stylesheet" type="text/css" href="NOME DA LOCALIZAÇÃO DA FOLHA DE ESTILOS" > </p>
+        <p>  </p>
+        <hr>
+
+        <p><strong>UTILIZANDO "CLASSES" E "IDs"</strong></p>
+
+        <p> Os "IDs" defines elementos de localização únicas </p>
+
+        <p> IDs são inicados com o jogo da velha "#" </p>
+
+        <p> Devemos definir dentro das TAGs: id="principal" </p>
+
+        <p> Dentro da TAG "style definimos o ID como "#principal" e atribuimos as propriedades </p>
+
+        <br>
+
+        <p> As "CLASSES" servem para definis diversos elementos com uma caracteristica em comum </p>
+
+        <p> Classes são iniciadas nos códigos com pontos "."</p>
+
+        <p> Devemos definir dentro das TAGs: class="azul" </p>
+
+        <p> Dentro da TAG "style" definimos a classe ".azul" e atribuimos as propriedades </p>
+        <hr>
+
+        <p><strong>UTILIZANDO AS TAGs "DIV" E "SPAN"</strong></p>
+
+        <p> DIV = Essas TAGs são utilizadas para dividir areas  </p>
+
+        <p> Exemplo abaixo de Formatação de DIV </p>
+
+        <div id="testediv">
+
+            <img src="imagens/carro.png" width="200">
+            <ul>
+                
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+
+            </ul>
+
+        </div>
+        <div id="testeconteudo">
+
+            <div>Produto 1</div>
+            <div>Produto 2</div>
+            <div>Produto 3</div>
+
+        </div>
+
+        <p> SPAN = Tratar divisão de conteúdos em linha </p>
+        <p> A usabilidade do SPAN seria praticamente como as DIVS </p>
+        <hr>
+
+        <p><strong> TRABALHANDO COM BORDAS </strong></p>
+
+        <div id="testebordas">
+
+            Borda 1 <br>
+            Borda 1 <br>
+            Borda 1 <br>
+
+        </div>
+
+        <p> Pesquisar na internet os estilos de borda que possue no W3Schools</p>
+        <hr>
+
+        <p><strong> FONTES,CORES, TAMANHOS E ESTILOS DE TEXTOS   </strong></p>
+
+        <p> Ao inves de colocar o nome da cor, podemos gerar o código hexadecimal de qualquer cor especifico</p>
+
+        <p> Podemos procurar no W3School sobre as cores </p>
+
+        <p id="testecores"> Exemplo de Cores </p>
+
+        <p> Podemos procurar no W3School sobre as fontes </p>
+
+        <p> É sempre bom aplicar como na estrutura do Exemplo, pelo menos 3 ou 4 fontes para ter mais segurança no projeto</p>
+
+        <p> Para medidas de textos, temos as opções abaixo:</p>
+
+        <p> px - tamanho fixo </p>
+        <p> % - tamanho relativo </p>
+        <p> em - tamanho relativo ao container pai </p>
+
+        <div class="testefontes">
+
+            <p id="testefontes"> Exemplo de Fontes 1 </p>
+            <p id="testefontes2"> Exemplo de Fontes 2 </p>
+
+        </div>
+
+        <p> Dentro de estilos temos: "bold", "italic", "underline", "overline", "line-through"  </p>
+
+        <div id="testeestilos">
+
+            <p class="testeestilos1"> Exemplo de Estilos 1 </p>
+            <p class="testeestilos2"> Exemplo de Estilos 2 </p>
+            <p class="testeestilos3"> Exemplo de Estilos 3 </p>
+
+        </div>
+        <hr>
+
+        <p><strong> TRABALHANDO COM COR E IMAGEM DE FUNDO </strong></p>
+
+        <p> • "Background-color" pode determinar uma cor para o plano de fundo de uma propriedade  </p>
+
+        <p> • Para aplicar uma imagem ao background de ser usado o "background-image: url('...')" </p>
+
+        <p> • Para a imagem não se repetir na tela podemos utilizar o comando "background-repeat" </p>
+
+        <p> • Para fixar a imagem em relação a rolagemm da página é o "background-attachment: fixed;" </p>
+
+        <p> • Para mover a imagem em relação a rolagemm da página é o "background-attachment: scroll;" </p>
+
+        <p> • Para alinhamento da imagem deve ser usado o "background-position: center;" </p>
+        <hr>
+
+        <p><strong> MODELOS DE CAIXAS </strong></p>
+
+        <p> Os conteúdos em html são tratados como caixas, se aplicado uma borda solida vermelha, será visto que os elementos são exatamente desta maneira </p>
+
+        <p> A propriedade "padding" é espaçamento interno das caixas </p>
+
+        <p> A propriedade "margin" é o espaçamento externo das caixas </p>
+        <hr>
+
+        <p><strong> ELEMENTOS FLUTUANTES </strong></p>
+
+        <p> Propriedade "float" faz elementos flutuar sobre os elementos fixos </p>
+
+        <p> A propriedade ".clear" limpa o fluxo de elementos flutuantes em determinados sentidos </p>
+
+        <div id="testeeleflut">
+            <div>
+
+                <div class="paragrafoelementosflutuantes">
+
+                    <h2> EXEMPLOS DE ELEMENTOS FLUTUANTES 1 </h2>
+                    <p > teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste  </p>
+                    <a href=""> Veja Mais </a>
+
+                </div>
+
+                <div class="paragrafoelementosflutuantes">
+
+                    <h2> EXEMPLOS DE ELEMENTOS FLUTUANTES 2 </h2>
+                    <p > teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste  </p>
+                    <a href=""> Veja Mais </a>
+
+                </div>
+
+                <div class="paragrafoelementosflutuantes">
+
+                    <h2> EXEMPLOS DE ELEMENTOS FLUTUANTES 3 </h2>
+                    <p > teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste  </p>
+                    <a href=""> Veja Mais </a>
+
+                </div>
+
+            </div>
+
+            <div class="clear"><hr></div>
+
+            <div class="imagenselementosflutuantes">
+                <img src="elementos-flutuantes/imagem1.png">
+                <p> Resumo </p>
+
+            </div>
+
+            <div class="imagenselementosflutuantes">
+                <img src="elementos-flutuantes/imagem2.png">
+                <p> Resumo </p>
+
+            </div>
+
+            <div class="imagenselementosflutuantes">
+                <img src="elementos-flutuantes/imagem3.png">
+                <p> Resumo </p>
+
+            </div>
+
+            <div class="imagenselementosflutuantes">
+                <img src="elementos-flutuantes/imagem4.png">
+                <p> Resumo </p>
+
+            </div>
+
+            <div class="imagenselementosflutuantes">
+                <img src="elementos-flutuantes/imagem5.png">
+                <p> Resumo </p>
+
+            </div>
+
+            <div class="clear"><hr></div>
+
+        </div>
+        <hr>
+
+        <p><strong> ELEMENTOS BLOCO </strong></p>
+
+        <p> Basicamente existe 3 tipos de elementos em bloco: </p>
+
+        <p> Elementos "inline", "block", "inline-block" </p>
+
+        <p> Para utilizarmos essa função, precisa ser adicionado a propriedade "display" e colocado uma das 3 opções </p>
+
+        <p> Elementos BLOCK = Ocupam a tela toda e geralmente se posicionam um abaixo do outro </p>
+
+        <p> Elementos INLINE = Ocupam o tamanho do seu conteúdo e ficam um ao lado do outro </p>
+
+        <p> Elementos INLINE-BLOCK = Ocupam o tamanho do seu conteúdo porém se posicionam um abaixo do outros </p>
+        <hr>
+
+        <p><strong> POSICIONAMENTO DE ELEMENTOS </strong></p>
+        <p> Teremos esses 04 tipos de posicionamento: </p>
+
+        <p> STATIC - Posição padrão já aplicada aos elementos </p>
+
+        <p> RELATIVE - Para posicionarmos precisamos usar medidas em pixel dentro das propriedades "top", "right", "bottom", "left" para definir onde o elemento vai ficar dentro dos elementos de caixas </p>
+
+        <p> ABSOLUTE - Essa posição é calculada com base no conteiner que ele está inserido ( ou com base no body ) ( o container precisa ter uma posição estática ou relativa para poder usar esse atributo ) </p>
+
+        <p> FIXED - Essa classe é um atributo que deixa o elemento posicionado fixamente com relação a janela do navegador </p>
+
+        <p> Para atribuir uma posição precisamos definir a propriedade "position" </p>
+
+        <h2> Exemplo de Posicionamentos </h2>
+
+        <div class="containerposicionamento">
+
+                <h2 class="posicao-h1-container"> Teste Posição </h2>
+                <p class="posicao-p1-container"> 01 teste teste teste teste teste teste teste teste teste </p>
+                <p class="posicao-p2-container"> 02 teste teste teste teste teste teste teste teste teste </p>
+                <p class="posicao-p3-container"> 03 teste teste teste teste teste teste teste teste teste </p>
+
+        </div>
+
+        <hr>
+
+        <p><strong> SOBREPONDO ELEMENTO </strong></p>
+
+        <p> Nesse contexto podemos alterar a ordem de exibição dos elementos com o atributo "z-index", inicindo em 0 e quanto maior o número, mais a frente o elemento irá ser exibido. </p>
+
+        <p> Desta forma podemos colocar o posicionamento do elemento com os atributos em "px". </p>
+
+        <div class="classeSobrepromdo">
+
+            <p> Tivemos que criar uma DIV com posicionamento relativo para poder manipular a sobreposição dos itens </p>
+
+            <div class="conteudo1sobrepondo" >
+                
+                BOX 01
+
+            </div>
+
+            <div class="conteudo2sobrepondo" >
+                
+                BOX 02
+
+            </div>
+
+            <div class="conteudo3sobrepondo" >
+                
+                BOX 03
+
+            </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <hr>
+        
+        <p><strong> FORMATANDO LINKS </strong></p>
+
+        <p> Os links tem estados como : "Não visitados" e "Visitados" </p>
+
+        <p> Podemos realizar essa diferenciação usando os termos "a:link" ( para não visitados ) e "a:visited" ( para links visitados ) dentro da folha de estilo </p>
+
+        <p> Há também o estado chamado "HOVER", que diferencia o link quando passamos o mouse sobre o mesmo, e para isso usamos o "a:hover" dentro do  arquivos de estilo </p>
+
+        <p> Outro Estado que podemos ter no nosso projeto é o "ATIVO" que é onde muda o aspecto do link ao clicar com o mouse no mesmo, e podemos usar com o "a:active"</p>
+
+        <p> Podemos atribuir outros atributos para os links ( backgrounds e etc ) </p>
+
+        <p> Seguir a sequecia de formatação = link - visited - hover - active </p>
+
+        <a href="https://google.com.br" class="formatLinks">Google</a> |
+
+        <a href="https://tecmundo.com.br" class="formatLinks">TecMundo</a> |
+
+        <a href="https://megacurioso.com.br" class="formatLinks">Mega Curioso</a>
+
+        <br><br><br><br><br>
+
+    </body>
+
+</html>
